@@ -12,9 +12,7 @@ function VideoPlayer() {
     const handleResize = () => {
         const iframe = document.querySelector('iframe');
         const width = iframe.offsetWidth;
-        console.log("aspectRatio", aspectRatio)
         iframe.style.height = `${width / aspectRatio}px`;
-        console.log("iframe.style.height", iframe.style.height)
     };
 
     useEffect(() => {
