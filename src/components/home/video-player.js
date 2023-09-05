@@ -28,7 +28,7 @@ function VideoPlayer() {
     }, [aspectRatio]);
     return (
         <div style={{width: "100%"}}>
-            <iframe style={{width: "100%", height: "100%"}} src="http://localhost:3001/video-player?id=JimmyKey"
+            <iframe style={{width: "100%", height: "100%"}} src="https://preview.dunh29xielhio.amplifyapp.com/video-player?id=JimmyKey"
                     frameBorder="0"
                     scrolling="no"></iframe>
         </div>
