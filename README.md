@@ -1,61 +1,57 @@
+# Next.js ile Videolity iFrame Entegrasyonu
 
-![Logo](https://ik.imagekit.io/vu5t8xb15vzcx/tr:h-100/M_akhjB4K1-.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677436748377)
+Bu projede, VideoLity iFrame entegrasyonunun nasıl gerçekleştirileceğini öğreneceksiniz. Bu örnek, Next.js kullanarak bir web uygulaması oluşturmayı ve bir video oynatıcı iFrame'ini entegre etmeyi göstermektedir.
 
-## Daisy UI Next JS Landing Page Template 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+## 🛠 Kurulum
 
-A free landing page template using **Daisy UI** and Next JS. With the help of Dasisy UI, it comes with **fully customizable and themable CSS** and power of Tailwind CSS utility classes.
+Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 
+1. **Repos'u Kopyalayın**
 
-## Preview
+    ```bash
+    git clone https://github.com/mhmmdglc/videolity-next.js-demo.git
+    ```
 
-[Live preview](https://daisyui-nextjs-landing-page.vercel.app/)
+2. **Bağımlılıkları Yükleyin**
 
+   Projeyi klonladıktan sonra, ana dizine gidin ve bağımlılıkları yükleyin.
 
-![App Screenshot](https://ik.imagekit.io/vu5t8xb15vzcx/Screenshot_2023-02-27_at_12.08.40_AM_rXhphy-m8.png?ik-sdk-version=javascript-1.4.3&updatedAt=1677436733271)
+    ```bash
+    cd videolity-next
+    npm install
+    ```
 
+   veya
 
+    ```bash
+    yarn install
+    ```
 
+3. **Projeyi Çalıştırın**
 
-## Features
+    ```bash
+    npm run dev
+    ```
 
-- **Light/dark** mode toggle
-- **Next Js** for SEO friendly
-- **Daisy UI** components and **Tailwind** support
+   veya
 
+    ```bash
+    yarn dev
+    ```
 
-## Installation
+   Şimdi projeniz [http://localhost:3000](http://localhost:3000) adresinde çalışıyor olmalı.
 
-Go to project directory and run (make sure you have node installed first)
+## 🎥 Video Entegrasyonu
 
-```bash
-  npm install
-  npm start
-```
-    
-## Core Libraries Used
+Entegrasyon dosyasını `src/components/player/video-player.js` dizini altında bulabilirsiniz. Buradaki `iframe` etiketinde `src="link"` kısmından `link`'i kendi video bağlantınızla değiştirebilirsiniz.
 
-- [Next JS v13.1.6](https://reactjs.org/)
-- [Tailwind CSS v3.2.4](https://tailwindcss.com/)
-- [Daisy UI v2.41.0](https://daisyui.com/)
-- [HeroIcons](https://heroicons.com/)
+## 📚 Kaynaklar ve Dokümantasyon
 
+- [Next.js Dokümantasyon](https://nextjs.org/docs)
+- [Videolity Kurulum](https://preview.dunh29xielhio.amplifyapp.com/dashboard/tutorial)
 
+## 📝 Lisans
 
-## Preview
+Bu proje MIT lisansı ile lisanslanmıştır. Detaylar için [LISANS](LICENSE) dosyasına bakın.
 
-[Live preview](https://daisyui-nextjs-landing-page.vercel.app/)
-
-
-## Contributing
-
-Contributions are always welcome!
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-## Feedback
-
-If you have any feedback, please reach out to us
 
