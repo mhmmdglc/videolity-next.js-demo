@@ -1,7 +1,7 @@
 # Next.js ile Videolity iFrame Entegrasyonu
 
 Bu projede, VideoLity iFrame entegrasyonunun nasıl gerçekleştirileceğini öğreneceksiniz. Bu örnek, Next.js kullanarak bir web uygulaması oluşturmayı ve bir video oynatıcı iFrame'ini entegre etmeyi göstermektedir.
-
+Projenin deploy haline [buradan](https://master.d2bbwqmzxnkpoc.amplifyapp.com/) inceleyebilirsiniz. 
 ## 🛠 Kurulum
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
